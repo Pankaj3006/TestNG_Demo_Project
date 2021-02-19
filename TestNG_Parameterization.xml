@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Salesforce Automation Suite" verbose="2">
+    <parameter name="Browser" value="chrome"/>
+    <parameter name="URL" value="https://login.salesforce.com/"/>
+    <parameter name="UserName" value="PankajkIt"/>
+    <parameter name="Password" value="Pankaj3006"/>
+    <test name="Test123">
+    <parameter name="UserName" value="PankajkIt123"/>
+    <parameter name="Password" value="Pankaj3006123"/>
+    <!--test level parameters will override Suite level Parameters. It is comment.-->
+    <classes>
+    <class name="VariousAnnotationsConcept.ParametersTestClass"/>
+    </classes>
+  </test> 
+</suite> 

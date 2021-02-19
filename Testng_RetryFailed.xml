@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Salesforce Automation Suite">
+  <listeners>
+  <listener class-name="RetryFailedCaseConcept.RetryFailedClass"/>
+  <listener class-name="RetryFailedCaseConcept.Listerners"/>
+  </listeners>
+  <test name="Test123">
+
+    <classes>
+    <class name="VariousAnnotationsConcept.InvocationCountClass"/>
+    <class name="VariousAnnotationsConcept.PriorityClass"/>
+    </classes>
+  </test> 
+</suite> 
